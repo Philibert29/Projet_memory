@@ -1,0 +1,12 @@
+.review-page {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .review-page button {
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  

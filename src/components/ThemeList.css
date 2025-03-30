@@ -1,0 +1,101 @@
+
+.container {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .theme-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .theme-list input {
+    width: 250px;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  
+  .theme-list input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .theme-list button {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 1rem;
+  }
+  
+  .theme-list button:hover {
+    background: #218838;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  ul li button {
+    background: #f8f9fa;
+    color: #333;
+    border: 2px solid #ddd;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.2s;
+    font-weight: bold;
+  }
+  
+  ul li button:hover {
+    background: #007bff;
+    color: white;
+    border-color: #007bff;
+  }
+  
+  .theme-buttons {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .theme-buttons li {
+    margin: 10px 0;
+  }
+  
+  .review-button {
+    margin-left: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .review-container {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+  }
+  
